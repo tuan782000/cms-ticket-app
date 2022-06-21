@@ -1,0 +1,51 @@
+header {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    width: calc(100% - 300px);
+    left: 300px;
+  }
+  .header-left form {
+    border-radius: 12px;
+    padding-right: 10px;
+  
+    background: rgba(237, 230, 230, 1);
+  }
+  .header-left input[type="text"] {
+    width: 437px;
+    height: 48px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 0 10px;
+    border-radius: 12px;
+  
+    background: rgba(237, 230, 230, 1);
+    font-size: 14px;
+    color: #333;
+  }
+  .header-left input[type="text"]::placeholder {
+    color: #999;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal;
+  }
+  .header-right ul {
+    margin: 0;
+  }
+  .header-right ul li {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  .header-right ul li i {
+    font-size: 24px;
+    color: #756a64;
+  }
+  .header-right ul li img {
+    width: 48px;
+    height: 48px;
+  }
+

@@ -1,0 +1,70 @@
+.siderbar {
+    position: fixed;
+    top: 17px;
+  
+    max-width: 252px;
+    width: 100%;
+  }
+  .siderbar-logo {
+    margin-bottom: 59px;
+  }
+  .siderbar-menu ul li + li {
+    margin-top: 10px;
+  }
+  .siderbar-menu ul li a {
+    max-height: 56px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px 24px;
+  
+    text-decoration: none;
+    color: #756a64;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.015em;
+  }
+  .siderbar-menu ul li a svg path{
+    fill: #756a64;
+  }
+  .siderbar-menu ul li.active a,.siderbar-menu ul li.active a svg path{
+    border-radius: 8px;
+  
+    background: rgba(255, 184, 0, 1);
+    fill: #fff;
+    color: white;
+    font-weight: 700;
+  }
+  .siderbar-menu ul li a .icon {
+    margin-right: 15px;
+  }
+  .siderbar-menu ul li:nth-child(2) .icon{
+    margin-top: 10px;
+  }
+  .siderbar-menu ul li a p{
+    margin: 0;
+  }
+  .siderbar-menu ul li.active a .icon i{
+    color: white;
+  }
+  .siderbar-menu ul .text {
+    margin: 0;
+    margin-right: 67px;
+  
+    text-align: right;
+    color: #756a64;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.015em;
+  }
+  .policy-text{
+    position: absolute;
+  
+    bottom: 0;
+  
+    font-size: 14px;
+    color: #1E0D03;
+    opacity: 0.5;
+  }
+  

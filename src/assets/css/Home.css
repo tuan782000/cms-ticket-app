@@ -1,0 +1,7 @@
+.container{
+    position: absolute;
+    
+    margin: 0 auto;
+    width: -webkit-fill-available;
+    padding: 17px 32px;
+  }
