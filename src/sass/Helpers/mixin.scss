@@ -1,0 +1,30 @@
+@mixin styleButton ($color, $bg-color,$border,$border-radius,$fs,$fw,$pd-x,$pd-y){
+        color: $color;
+        background-color: $bg-color;
+        border: $border;
+        border-radius: $border-radius;
+        font-size: $fs;
+        font-weight: $fw;
+        padding: $pd-x $pd-y;
+}
+
+
+@mixin datePicker($height,$width,$borderRadius){
+    height: $height;
+    width: $width;
+    border-radius: $borderRadius;
+}
+
+// inputSearch
+@mixin inputGroup($height,$width,$pd-x,$pd-y,$border-radius,$background) {
+    height: $height;
+    width: $width;
+    padding: $pd-y $pd-x;
+    border-radius: $border-radius;
+    background: $background;
+}
+@mixin  inputControl($height,$width,$background) {
+    height: $height;
+    width: $width;
+    background: $background;
+}

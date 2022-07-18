@@ -1,0 +1,32 @@
+@import '../Helpers/variables.scss';
+.datepicker-md{
+    position: relative;
+    width: 132px;
+    height: 40px;
+}
+.date-picker-sm,.datepicker-undefined{
+    position: relative;
+    width: 120px;
+}
+.date-picker-control{
+    position: relative;
+    .input-base, .input-undefined{
+        padding: $pd-10 - 3;
+        padding-right: $pd-24;
+        border-radius: $border-radius-8;
+        width: 100%;
+    }
+    .input-md{
+        padding: $pd-10 - 3;
+        padding-right: $pd-24;
+        border-radius: $border-radius-8;
+        width: 100%;
+        height: 100%;
+    }
+    .icon-calendar{
+        position: absolute;
+        top: 50%;
+        right: 5px;
+        transform: translateY(-50%);
+     }
+}

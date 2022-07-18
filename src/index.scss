@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '../src/sass/Helpers/variables.scss';
+html{
+  font-size: 16px;
+}
+body {
+
+  font-style: normal !important;
+  font-weight: $fw-500 !important;
+  line-height: $lh-26 !important;
+  letter-spacing: 0.015em !important;
+  color: $color-black-0 !important;
+  font-size: $fs-18 !important;
+  background-color: $bg-pink-0;
+}

@@ -1,0 +1,191 @@
+@import '../Helpers/variables.scss';
+
+// custom table antd
+.ant-pagination-item.ant-pagination-item-active{
+    border-color: $color-orange-0;
+};
+.ant-pagination-item.ant-pagination-item-active a {
+    color: $color-orange-0;
+}
+.ant-pagination-item:hover, .ant-pagination-item a:hover {
+    color: $color-orange-0 !important;
+    border-color: $color-orange-0 !important;
+}
+.ant-pagination-prev{
+    .ant-pagination-item-link{
+        border: none !important;
+        .anticon-left{
+            color: $color-orange-0;
+        }
+    }
+}
+.ant-pagination-next{
+    .ant-pagination-item-link{
+        border: none !important;
+        .anticon-right{
+            color: $color-orange-0;
+        }
+    }
+}
+.ant-table-thead {
+    tr {
+        .ant-table-cell {
+            font-weight: $fw-600;
+            background: $bg-gray-2;
+        }
+    } 
+}
+.ant-table-tbody{
+    tr.ant-table-row:nth-child(2n){
+        td{
+            background: $bg-gray-1;
+           
+        }
+    }
+}
+.ant-table-tbody {
+    tr.ant-table-row:hover{
+        td{
+            background: $bg-gray-1;
+        }
+    }
+}
+
+.ant-pagination-disabled .ant-pagination-item-link,
+.ant-pagination-disabled:hover .ant-pagination-item-link{
+    color: $color-orange-0;
+    border: none;
+}
+//  custom icon filter ant  
+#quanLyVe{
+    .button-white{
+        .icon-filter{
+            .anticon {
+                svg {
+                    height: 18px;
+                    width: 20px;
+                    color: $color-orange-0;
+                }
+            }
+        }
+        &:hover{
+            .icon-filter{
+                .anticon{
+                    svg{
+                        color: $color-white-0;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+/* custiom modal antd */
+.ant-modal {
+    .ant-modal-content{
+        /* border-bottom: none; */
+        border-radius: $border-radius-16;
+    }
+}
+.ant-modal-content {
+    .ant-modal-header{
+        border-top-right-radius: $border-radius-16;
+        border-top-left-radius: $border-radius-16;
+    }
+}
+.ant-modal-footer{
+    display: none;
+}
+.ant-modal-header{
+    .ant-modal-title{
+        text-align: center;
+        font-size: $fs-24;
+        line-height: $lh-30;
+        color: $bg-orange-0;
+        font-weight: bold;
+    }
+    
+}
+.anticon.anticon-calendar{
+    color: $color-orange-0;
+}
+.anticon.anticon-clock-circle{
+    color: $color-orange-0;
+}
+
+.modal_ticket_content {
+    .text-title{
+        font-weight: $fw-600;
+        font-size: $fs-16;
+        line-height: 26px;
+        color: #1E0D03;
+        opacity: 0.8;
+    }
+}
+
+/* custom slider*/
+#myNavBar .ant-menu-item{
+    font-weight: $fw-bold;
+    font-size: $fs-18;
+    line-height: 26px;
+    color: $color-black-0;
+    opacity: 0.6;
+    font-size: $fs-24 + 2;
+    font-size: $fs-18;
+    font-weight: $fw-500;
+
+}
+
+#myNavBar .ant-layout-sider , #myNavBar .ant-layout-header,
+#myNavBar .ant-menu.ant-menu-dark,#myNavBar .ant-menu-dark .ant-menu-inline.ant-menu-sub{
+    background: $bg-pink-0;
+  
+}
+#myNavBar{
+    padding: $pd-16 + 1  33px;
+    background-color: $bg-pink-0;
+    position: relative;
+}
+#myNavBar .ant-menu-dark .ant-menu-item, #myNavBar .ant-menu-dark .ant-menu-submenu-title{
+    color: $color-black-0
+}
+#myNavBar .ant-menu-submenu-arrow{
+    display: none;
+}
+#myNavBar .ant-layout-sider{
+    height: 100vh;
+    width: 140px !important;
+    max-width: 200px !important;
+    min-width: 140px !important;
+    margin-right: 33px;
+    flex-basis: 155px !important;
+    
+}
+#myNavBar .ant-menu-inline .ant-menu-item{
+    padding: $pd-4 $pd-12 !important;
+    border-radius: $border-radius-8;
+    
+}
+
+/* active nav-item  */
+#myNavBar .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected{
+    background-color: $bg-orange-1;
+}
+#myNavBar .ant-menu-dark .ant-menu-item{
+    transition: all .5;
+    &:hover{
+        background-color: $bg-orange-1;
+        color: $color-white-0;
+    }
+}
+#myNavBar  {
+    .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal){
+        .ant-menu-item-selected i{
+            color: $color-white-0;
+        }
+        
+    }
+   
+    
+}

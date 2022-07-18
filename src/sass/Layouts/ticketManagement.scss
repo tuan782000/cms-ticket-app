@@ -1,0 +1,40 @@
+@import '../Helpers/variables.scss';
+
+/* style : loai goi  */
+.loaigoi p {
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 24px;
+    transition: all .5s;
+    &::before{
+        content: '';
+        display: inline-block;
+        position: absolute;
+        width:  0;
+        height: 3px;
+        bottom: 0;
+        left: -5px;
+        transition: all .5s;
+    }
+    &:hover{
+        color: $color-orange-0;
+        &::before{
+            width: 110%;
+            background-color: $color-orange-0;;
+        }
+    }
+}
+
+
+
+.loaigoi{
+    .loaigoi_active{
+        color: $color-orange-0;
+        &::before{
+            background-color: $bg-orange-0 ;
+            width: 110%;
+        }
+    }
+    
+}
+

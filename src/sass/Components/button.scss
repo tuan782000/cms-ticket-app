@@ -1,0 +1,15 @@
+@import '../Helpers/mixin.scss';
+@import '../Helpers/variables.scss';
+.button--white{
+    @include styleButton($color-orange-0,$bg-white,$border-0,$border-radius-8,$fs-18,$fw-bold,$pd-11,$pd-24);
+    &:hover{
+        @include styleButton($color-white-0,$bg-orange-1,$border-1,$border-radius-8,$fs-18,$fw-bold,$pd-11,$pd-24);
+    }
+  
+}
+.button--orange{
+    @include styleButton($color-white-0,$bg-orange-0,$border-0,$border-radius-8,$fs-18,$fw-bold,$pd-11,$pd-24);
+    &:hover{
+        @include styleButton($color-white-0,$bg-orange-1,$border-1,$border-radius-8,$fs-18,$fw-bold,$pd-11,$pd-24);
+    }
+}

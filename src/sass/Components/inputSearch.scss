@@ -1,0 +1,38 @@
+@import '../Helpers/variables.scss';
+@import '../Helpers/mixin.scss';
+
+/* input search  */
+.input-group-base{
+    display: flex;
+    align-items: center;
+    @include inputGroup($height-48,$width-470,$pd-16,$pd-10,$border-radius-12,$bg-gray-0);
+}
+.input-control-base{
+    @include inputControl($height-28,$width-395,$bg-gray-0);
+    &:focus{
+        outline: none;
+    }
+}
+
+.input-group-small{
+    display: flex;
+    align-items: center;
+    @include inputGroup($height-48,$width-320,$pd-16,$pd-10,$border-radius-12,$bg-gray-0);
+}
+.input-control-small{
+    @include inputControl($height-28,$width-395,$bg-gray-0);
+    &:focus{
+        outline: none;
+    }
+}
+//custom SearchOutline ant-design
+.icon-control.anticon{
+   color: #1E0D03;
+   margin-left: 1rem;
+}
+.icon-control.anticon {
+    svg{
+        height: 24px;
+        width: 24px;
+    }
+}
